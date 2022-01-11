@@ -14,4 +14,6 @@
 -- | 2001 | Seattle Mariners                  | 116  |
 -- +------+-----------------------------------+------+
 
-
+SELECT name, year, wins 
+FROM teams 
+ORDER BY wins;
